@@ -37,7 +37,7 @@ export const projectsData = [
 
     {
         title: "WeathAir (WIP)",
-        description: "Ceci est une application mobile à venir donnant des informations sur la météo.",
+        description: "Ceci est une application mobile à venir donnant des informations sur la météo et les prévisions météorologiques.",
         tags: ["Mobile", "Flutter"],
         imageUrl: weathairIng,
     },
@@ -54,5 +54,7 @@ export const skills = [
     "Next.js",
     "Express",
     "Mongo DB",
+    "PHP",
+    "Python",
     "Git"
 ] as const;
