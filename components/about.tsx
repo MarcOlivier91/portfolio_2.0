@@ -2,7 +2,24 @@
 
 import React from 'react'
 import SectionHeading from './section-heading'
-import { motion , useScroll} from "framer-motion"
+import { motion } from "framer-motion"
+import { skills } from '@/lib/data'
+
+// TODO: Fixed delayed items arrival
+
+const fadeInAnimationVariants = {
+  initital: {
+    opacity: 0,
+    y: 100
+  },
+  animate: (index: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.05 * index
+    }
+  })
+}
 
 
 function About() {
@@ -22,10 +39,32 @@ function About() {
             J'utilise principalement <span className="font-semibold">React, Next.js, Node.js, et MongoDB</span> pour me spécialiser dans le <span className="font-medium">développement front-end</span> 
             mais je souhaiterais également devenir familier avec le <span className="underline">développement mobile</span> et bien d'autres langages.
         </p>
-        <p className="text-lg">
+        <p className="text-lg mb-32">
             Lorsque je ne code pas, je joue aux jeux-vidéos, regarde des animes, lis des mangas et je m'entraine également à dessiner des illustrations.
             Je suis également les dernières <span className="font-medium">actualités automobiles et financières.</span>
         </p>
+
+        <SectionHeading>Mes compétences</SectionHeading>
+        <div className='mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40'>
+          <ul className='text-grey-100 px-4 py-4 flex flex-wrap justify-center gap-2 text-md font-bold'>
+            {skills.map((skill, index) => (
+              <motion.li key={index}
+              className="bg-slate-100 gap-2 px-8 py-2 rounded-xl border border-black-1/2 cursor-pointer hover:scale-105 duration-200"
+              variants={fadeInAnimationVariants}
+              initial="initial"
+              whileInView="animate"
+              viewport={{ 
+                once: true
+              }}
+              custom={index}
+
+              >
+                {skill}
+              </motion.li>
+            ))}
+          </ul>
+        </div>
+
     </motion.section>
   )
 }

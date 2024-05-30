@@ -1,12 +1,13 @@
 'use client';
 
-import React, { useContext, useState } from 'react'
+import React from 'react'
 import { motion } from "framer-motion"
 import { links } from "@/lib/data"
 import Link from "next/link"
 import clsx from 'clsx';
 import { useActiveSectionContext } from '@/context/active-section-context';
 
+// TODO: Finish "bubble" on each section as the page scrolls
 
 export default function Header() {
     const { activeSection, setActiveSection} = useActiveSectionContext();

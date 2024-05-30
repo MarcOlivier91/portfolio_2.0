@@ -53,7 +53,8 @@ export const skills = [
     "Flutter",
     "Next.js",
     "Express",
-    "Mongo DB",
+    "MongoDB",
+    "MySQL",
     "PHP",
     "Python",
     "Git"

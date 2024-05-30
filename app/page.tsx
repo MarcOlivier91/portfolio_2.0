@@ -2,6 +2,7 @@ import Intro from '@/components/intro'
 import SectionDivider from '@/components/section-divider';
 import About from '@/components/about';
 import Projets from '@/components/projets';
+import Contact from '@/components/contact';
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <SectionDivider />
       <About />
       <Projets />
-      <h1 className="my-8">Cette dernière partie va afficher les moyens de me contacter</h1>
+      <Contact />
       <footer></footer>
     </main>
   );
