@@ -31,13 +31,13 @@ export const projectsData = [
     {
         title: "AniCorner",
         description: "Ceci est un site rassemblant les dernières nouveautés et sorties des animes et mangas.",
-        tags: ["React", "Next.js","Tailwind CSS", "MongoDB", "Express"],
+        tags: ["React", "Next.js","Tailwind CSS", "Mongo DB", "Express"],
         imageUrl: aniCornerImg,
     },
 
     {
         title: "WeathAir (WIP)",
-        description: "Ceci est une application mobile donnant des informations sur la météo.",
+        description: "Ceci est une application mobile à venir donnant des informations sur la météo.",
         tags: ["Mobile", "Flutter"],
         imageUrl: weathairIng,
     },
@@ -51,9 +51,8 @@ export const skills = [
     "Typescript",
     "React",
     "Flutter",
-    "Mobile",
     "Next.js",
     "Express",
-    "MongoDB",
+    "Mongo DB",
     "Git"
 ] as const;
