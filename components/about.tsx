@@ -7,8 +7,9 @@ import { motion , useScroll} from "framer-motion"
 
 function About() {
   return (
-    <motion.section 
-        className="mb-28 max-w-[45rem] leading-8 sm:mb-40 text-center"
+    <motion.section
+        id="about"
+        className="mb-28 max-w-[45rem] leading-8 sm:mb-40 text-center scroll-mt-28"
         initial={{ y: 100,  opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ ease: "easeOut", duration: 0.9, delay: 0.50 }}
