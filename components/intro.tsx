@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import React from 'react'
 import Link from "next/link"
@@ -6,26 +6,6 @@ import Image from 'next/image'
 import { BsArrowRight, BsArrowDownSquareFill, BsLinkedin, BsGithub   } from "react-icons/bs"
 import photo from '@/public/photo.jpg'
 import { motion } from "framer-motion"
-
-const container = {
-    hidden: { opacity: 1, scale: 0 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        delayChildren: 0.3,
-        staggerChildren: 0.2
-      }
-    }
-  };
-  
-  const item = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1
-    }
-  };
 
 function intro() {
   return (
@@ -45,7 +25,7 @@ function intro() {
                 />
             </motion.div>
         </div>
-        <motion.p 
+        <motion.h1 
             className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl"
             initial={{ y: 100,  opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -56,10 +36,9 @@ function intro() {
                 Je suis un <span className="font-bold">développeur full-stack</span> à la recherche d'une alternance pour <span className="font-bold">Septembre 2024</span>.
                 J'aime beaucoup créer des <span className='underline italic'>sites vitrines et des webapps
             </span>.
-        </motion.p>
+        </motion.h1>
         <motion.div 
             className='flex flex-col sm:flex-row items-center justify-center gap-4 px-4 font-semibold'
-            variants={container}
             initial={{ y: 100,  opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ ease: "easeOut", delay: 0.3, duration:0.9 }}

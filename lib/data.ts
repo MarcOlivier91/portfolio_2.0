@@ -1,15 +1,19 @@
+import dragonRushImg from '@/public/DragonRush_Screenshot.png'
+import weathairIng from '@/public/WeathAir_Screenshot.png'
+import aniCornerImg from '@/public/Anicorner_Screenshot.png'
+
 export const links = [
     {
         name: "Home",
         route: "#home"
     },
     {
-        name: "Intro",
-        route: "#intro"
+        name: "A propos",
+        route: "#about"
     },
     {
-        name: "Projets",
-        route: "#projets"
+        name: "Mes Projets",
+        route: "#mesprojets"
     },
     {
         name: "Contact",
@@ -19,17 +23,23 @@ export const links = [
 
 export const projectsData = [
     {
+        title: "Dragon Rush",
+        description: "Ceci est un mini-jeu type mini-clicker",
+        tags: ["HTML", "CSS", "Javascript"],
+        imageUrl: dragonRushImg,
+    },
+    {
         title: "AniCorner",
         description: "Ceci est un site rassemblant les dernières nouveautés et sorties des animes et mangas.",
-        tags: ["React", "Next.js", "MongoDB", "Express.js"],
-        //imageUrl: aniCornerImg,
+        tags: ["React", "Next.js","Tailwind CSS", "MongoDB", "Express"],
+        imageUrl: aniCornerImg,
     },
 
     {
-        title: "WeathAir",
+        title: "WeathAir (WIP)",
         description: "Ceci est une application mobile donnant des informations sur la météo.",
-        tags: ["Flutter"],
-        //imageUrl: weathairIng,
+        tags: ["Mobile", "Flutter"],
+        imageUrl: weathairIng,
     },
 ] as const;
 
@@ -40,11 +50,10 @@ export const skills = [
     "Javascript",
     "Typescript",
     "React",
+    "Flutter",
+    "Mobile",
     "Next.js",
     "Express",
     "MongoDB",
-    "MySQL",
-    "Python",
-    "PHP",
     "Git"
 ] as const;
