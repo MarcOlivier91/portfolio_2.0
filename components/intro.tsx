@@ -68,15 +68,22 @@ function intro() {
                     Contactez-moi ici 
                     <BsArrowRight className="group-hover:translate-x-1 transition"/>
                 </Link>
-                <a className="group bg-gray-50 text-slate-900 px-4 py-4 flex items-center gap-2 rounded-full cursor-pointer focus:sclae-110 active:scale-105 hover:scale-110 hover:bg-gray-100 duration-200">
+                <a className="group bg-gray-50 text-slate-900 px-4 py-4 flex items-center border border-black/10 gap-2 rounded-full cursor-pointer focus:sclae-110 active:scale-105 hover:scale-110 hover:bg-gray-100 hover:text-slate-950 duration-200" 
+                href="/Marc-Olivier_Sossou_CV.pdf" 
+                download={true}
+                >
                     Téléchargez mon CV 
                     <BsArrowDownSquareFill className="group-hover:translate-y-1 transition"/>
                 </a>
-                <Link href="https://www.linkedin.com/in/marcolivier-sossou/" className="group bg-gray-50 text-slate-900 px-4 py-4 flex items-center gap-2 rounded-full focus:sclae-110 active:scale-105 hover:scale-110 hover:bg-gray-100 duration-200">
+                <Link href="https://www.linkedin.com/in/marcolivier-sossou/" 
+                target='_blank'
+                className="group bg-gray-50 text-slate-900 px-4 py-4 border border-black/10 flex items-center gap-2 rounded-full focus:sclae-110 active:scale-105 hover:scale-110 hover:text-slate-950 hover:bg-gray-100 duration-200">
                     LinkedIn 
                     <BsLinkedin className="group-hover:scale-120 transition"/>
                 </Link>
-                <Link href="https://github.com/MarcOlivier91" className="group bg-gray-50 text-slate-900 px-4 py-4 flex items-center gap-2 rounded-full focus:sclae-110 active:scale-105 hover:scale-110 hover:bg-gray-100 duration-200">
+                <Link href="https://github.com/MarcOlivier91" 
+                target="_blank"
+                className="group bg-gray-50 text-slate-900 px-4 py-4 flex items-center border border-black/10 gap-2 rounded-full focus:sclae-110 active:scale-105 hover:scale-110 hover:bg-gray-100 hover:text-slate-950 duration-200">
                     Github 
                     <BsGithub className="group-hover:scale-120 transition"/>
                 </Link>
