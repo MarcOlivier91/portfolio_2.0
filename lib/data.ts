@@ -17,8 +17,6 @@ export const links = [
     },
 ] as const;
 
-export const intro = "Ceci est une introduction me décrivant et présentant mon parcours.." as const;
-
 export const projectsData = [
     {
         title: "AniCorner",
