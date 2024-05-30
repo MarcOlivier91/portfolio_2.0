@@ -45,7 +45,7 @@ function About() {
         </p>
 
         <SectionHeading>Mes compétences</SectionHeading>
-        <div className='mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40'>
+        <div className=' max-w-[53rem] scroll-mt-28 text-center sm:mb-40'>
           <ul className='text-grey-100 px-4 py-4 flex flex-wrap justify-center gap-2 text-md font-bold'>
             {skills.map((skill, index) => (
               <motion.li key={index}
