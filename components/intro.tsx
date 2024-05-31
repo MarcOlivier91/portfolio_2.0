@@ -32,7 +32,7 @@ function intro() {
             transition={{ ease: "easeOut", duration: 0.9 }}
             >
             <span className="font-bold">
-                Bonjour, je suis Marc-Olivier.</span>
+                Bonjour, je suis Marc-Olivier.</span> {" "}
                 Je suis un <span className="font-bold">développeur full-stack</span> à la recherche d'une alternance pour <span className="font-bold">Septembre 2024</span>.
                 J'aime beaucoup créer des <span className='underline italic'>sites vitrines et des webapps
             </span>.

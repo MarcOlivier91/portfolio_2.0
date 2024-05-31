@@ -27,12 +27,14 @@ export const projectsData = [
         description: "Ceci est un mini-jeu type mini-clicker",
         tags: ["HTML", "CSS", "Javascript"],
         imageUrl: dragonRushImg,
+        githubRepo: "https://github.com/MarcOlivier91/DragonRush"
     },
     {
         title: "AniCorner",
         description: "Ceci est un site rassemblant les dernières nouveautés et sorties des animes et mangas.",
         tags: ["React", "Next.js","Tailwind CSS", "Mongo DB", "Express"],
         imageUrl: aniCornerImg,
+        githubRepo: "https://github.com/MarcOlivier91/Anicorner"
     },
 
     {
@@ -40,6 +42,7 @@ export const projectsData = [
         description: "Ceci est une application mobile à venir donnant des informations sur la météo et les prévisions météorologiques.",
         tags: ["Mobile", "Flutter"],
         imageUrl: weathairIng,
+        githubRepo: "https://github.com/MarcOlivier91/Weathair"
     },
 ] as const;
 
