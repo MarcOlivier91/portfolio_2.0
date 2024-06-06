@@ -21,7 +21,7 @@ function intro() {
                 alt="Portrait de Marc-Olivier"
                 quality="95"
                 priority={true}
-                className="h-32 w-32 rounded-full border-[0.25rem] border-white shadow-xl"
+                className="h-40 w-40 rounded-full border-[0.25rem] border-white shadow-xl"
                 />
             </motion.div>
         </div>
@@ -68,7 +68,7 @@ function intro() {
                 </Link>
         </motion.div>
     </section>
-  )
+    )
 }
 
 export default intro
