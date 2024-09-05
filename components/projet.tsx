@@ -36,7 +36,7 @@ export default function Projet({title, description, tags, imageUrl, githubRepo}:
                 href={githubRepo} 
                 target="_blank" 
                 className="group bg-gray-50 text-slate-900 my-4 py-4 flex flex-wrap font-semibold items-center justify-center border border-black/10 gap-2 rounded-full focus:sclae-110 active:scale-105 hover:scale-110 hover:bg-gray-100 hover:text-slate-950 duration-200">
-                    Source Code
+                    Code Source
                     <BsGithub className="group-hover:scale-120 transition"/>
             </Link>
         </div>
