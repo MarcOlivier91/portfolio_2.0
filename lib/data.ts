@@ -1,6 +1,7 @@
-import dragonRushImg from '@/public/DragonRush_Screenshot.png'
-import weathairIng from '@/public/WeathAir_Screenshot.png'
-import aniCornerImg from '@/public/Anicorner_Screenshot.png'
+import dragonRushImg from '../public/DragonRush_Screenshot.png'
+import weathairIng from '../public/WeathAir_Screenshot.png'
+import aniCornerImg from '../public/Anicorner_Screenshot.png'
+import lilCalcImg from '../public/lil_calc_Screenshot.png'
 
 export const links = [
     {
@@ -35,6 +36,15 @@ export const projectsData = [
         tags: ["React", "Next.js","Tailwind CSS", "Mongo DB", "Express"],
         imageUrl: aniCornerImg,
         githubRepo: "https://github.com/MarcOlivier91/Anicorner"
+    },
+
+    {
+        title: "Lil Calc",
+        description: "Ceci est un petit programme qui fait une opération entre 2 nombres." ,
+        tags: ["Python"],
+        imageUrl: lilCalcImg,
+        githubRepo: "https://github.com/MarcOlivier91/lil_calc"
+
     },
 
     {
