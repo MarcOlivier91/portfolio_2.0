@@ -33,7 +33,7 @@ function intro() {
             >
             <span className="font-bold">
                 Bonjour, je suis Marc-Olivier.</span> {" "}
-                Je suis un <span className="font-bold">développeur full-stack</span> à la recherche d'une alternance pour <span className="font-bold">Septembre 2024</span>.
+                Je suis un <span className="font-bold">développeur full-stack</span> à la recherche <span className="font-bold"> d'une alternance pour commencer dès que possible.</span>.
                 J'aime beaucoup créer des <span className='underline italic'>sites vitrines et des webapps
             </span>.
         </motion.h1>
