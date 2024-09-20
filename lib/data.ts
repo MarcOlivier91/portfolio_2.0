@@ -2,6 +2,7 @@ import dragonRushImg from '../public/DragonRush_Screenshot.png'
 import weathairIng from '../public/WeathAir_Screenshot.png'
 import aniCornerImg from '../public/Anicorner_Screenshot.png'
 import lilCalcImg from '../public/lil_calc_Screenshot.png'
+import lilRpsImg from '../public/lil_rps_Screenshot.png'
 
 export const links = [
     {
@@ -44,6 +45,14 @@ export const projectsData = [
         tags: ["Python"],
         imageUrl: lilCalcImg,
         githubRepo: "https://github.com/MarcOlivier91/lil_calc"
+
+    },
+    {
+        title: "Lil RPS",
+        description: "Ceci est un petit programme pour jouer à pierre-feuille-ciseaux." ,
+        tags: ["Node", "Typescript"],
+        imageUrl: lilRpsImg,
+        githubRepo: "https://github.com/MarcOlivier91/lil_rps"
 
     },
 
