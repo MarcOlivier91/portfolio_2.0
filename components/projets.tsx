@@ -9,7 +9,7 @@ export default function projets() {
   return (
     <section id="mesprojets" className='scroll-mt-28 mb-28'>
         <SectionHeading>Mes Projets</SectionHeading>
-        <div>
+        <div className='flex flex-wrap grid-cols-2 justify-evenly'>
             {projectsData.map((projet, index) => (
                 <React.Fragment key={index}>
                     <Projet {...projet}/>
