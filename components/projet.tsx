@@ -46,7 +46,7 @@ export default function Projet({title, description, tags, imageUrl, githubRepo}:
             src={imageUrl} 
             alt={title} 
             quality={95} 
-            className='absolute top-8 -right-40 w-[30.25rem] rounded-2xl shadow-2xl group-hover:scale-110 group-hover:translate-x-4 group-hover:translate-y-3 group-hover:rotate-2 duration-200'
+            className='absolute top-8 -right-40 w-[25.25rem] rounded-2xl shadow-2xl group-hover:scale-110 group-hover:translate-x-4 group-hover:translate-y-3 group-hover:rotate-2 duration-200'
         />
         </section>
 
