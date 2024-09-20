@@ -26,7 +26,7 @@ export const links = [
 export const projectsData = [
     {
         title: "Dragon Rush",
-        description: "Ceci est un mini-jeu type mini-clicker",
+        description: "Ceci est un mini-jeu type mini-clicker dans une page web.",
         tags: ["HTML", "CSS", "Javascript"],
         imageUrl: dragonRushImg,
         githubRepo: "https://github.com/MarcOlivier91/DragonRush"
